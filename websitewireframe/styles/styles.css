@@ -1,0 +1,54 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+#hero-msg h1, h4, .button-box, main section, nav a, header{
+    text-align: center;
+}
+
+
+#background {
+    height: 725px;
+}
+
+body, header, #background, .msg, footer {
+    background-color: darkgreen;
+    color: chocolate;
+}
+
+nav a:hover, .booking:hover, .join:hover, footer a:hover{
+    color:rgb(86, 199, 255);
+}
+
+nav a, .booking, .join, footer a{
+    background-color: darkgreen;
+    color:chocolate;
+    text-decoration: none;
+}
+.home-title, h4, .msg h2, .msg p, header h1{
+    color:rgb(86, 199, 255);
+}
+
+.logo, .socialmedia{
+    width: 80px;
+}
+
+#hero_image{
+    width: 100%;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
