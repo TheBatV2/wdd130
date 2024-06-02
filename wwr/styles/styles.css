@@ -1,0 +1,112 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+    
+}
+
+#hero-msg h1, h4, .button-box, main section, nav a, header{
+    text-align: center;
+}
+
+.home-title{
+    font-family: "Brush Script MT", Arial, sans-serif;
+    font-size: 2em;
+}
+.booking, .join{
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+nav a {
+    padding:35px;
+    
+    display: inline-block;
+}
+.msg, .p{
+    font-size: 18px;
+    line-height: 1.5em;
+    
+}
+.msg{
+    padding: 35px;
+
+}
+.msg p {
+    padding-bottom: 15px;
+}
+#background {
+    height: 725px;
+}
+
+body, header, #background, .msg, footer {
+    background-color: rgb(1, 68, 1);
+    color: chocolate;
+    font-family: "Brush Script MT", Arial, sans-serif;
+}
+
+nav a:hover, .booking:hover, .join:hover, footer a:hover{
+    color:rgb(86, 199, 255);
+}
+
+nav a, .booking, .join, footer a{
+    background-color: rgb(1, 68, 1);
+    color:chocolate;
+    text-decoration: none;
+}
+.home-title, h4, .msg h2, .msg p, header h1{
+    color:rgb(86, 199, 255);
+}
+
+.socialmedia{
+    width: 80px;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+
+#hero_image{
+    width: 100%;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+#logo_link{
+    padding-top:5px;
+    padding-bottom:10px;
+    
+}
+footer{
+    padding:25px 50px;
+
+}
+footer, .socialmedia{
+    padding-top: 15px;
+}
+#riverpic, #familypic, #campingpic{
+    width: 50%;
+    padding:10px;
+    margin:20px;
+    border:10px solid chocolate;
+
+}
+
+
+
+
+
+
+
