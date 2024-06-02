@@ -65,6 +65,9 @@ nav a, .booking, .join, footer a{
 .home-title, h4, .msg h2, .msg p, header h1{
     color:rgb(86, 199, 255);
 }
+.home-title{
+    margin-top: 25px;
+}
 
 .socialmedia{
     width: 80px;
@@ -105,6 +108,22 @@ footer, .socialmedia{
 }
 .bannerpictures{
     box-sizing: border-box;
+    
+}
+.vertadventpics{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-items: center;
+    width:1300px
+    
+    
+}
+#raft_pic1, #raft_pic2, #raft_pic3, #raft_pic4{
+    width:640px;
+    height:640px
+
 }
 
 
