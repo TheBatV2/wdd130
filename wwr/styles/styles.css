@@ -125,7 +125,17 @@ footer, .socialmedia{
     height:640px
 
 }
-
+footer{
+    border: 2px solid chocolate;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+header{
+    border: 2px solid  chocolate;
+    margin: 25px 25px 25px 25px;
+    padding: 20px 80px 20px 80px;
+    
+}
 
 
 
