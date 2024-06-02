@@ -70,8 +70,8 @@ nav a, .booking, .join, footer a{
     width: 80px;
 }
 .logo{
-    height: 200px;
-    width: 200px;
+    height: 80px;
+    width: 80px;
 }
 
 #hero_image{
@@ -102,6 +102,9 @@ footer, .socialmedia{
     margin:20px;
     border:10px solid chocolate;
 
+}
+.bannerpictures{
+    box-sizing: border-box;
 }
 
 
