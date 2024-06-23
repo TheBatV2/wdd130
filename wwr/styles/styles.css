@@ -76,6 +76,7 @@ nav a, .booking, .join, footer a{
     color:rgb(86, 199, 255);
 
 }
+
 .home-title{
     margin-top: 25px;
 }
@@ -183,6 +184,51 @@ header{
     margin-top: 100px;
     
 }
+.River{
+    display: grid;
+    grid-template-columns:  repeat(10, 1fr);
+    
+
+}
+.Salmonriver-subpage{
+    margin: auto;
+    margin-top: 25px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: 8px solid chocolate;
+}
+.salmonriverinfo{
+    margin: auto;
+    grid-column: 4/10;
+    grid-row: 1/2;
+    border: 5px solid chocolate;
+}
+.utahriver-subpage{
+    margin: auto;
+    margin-top: 25px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+    border: 8px solid chocolate;
+}
+.utahriverinfo{
+    margin: auto;
+    grid-column: 4/10;
+    grid-row: 4/6;
+    border: 5px solid chocolate;
+}
+.grandcanyonriver-subpage{
+    margin: auto;
+    margin-top: 25px;
+    grid-column: 1/3;
+    grid-row: 7/8;
+    border: 8px solid chocolate;
+}
+.grandcanyonriverinfo{
+    margin: auto;
+    grid-column: 4/10;
+    grid-row: 7/8;
+    border: 5px solid chocolate;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -227,7 +273,7 @@ header{
         margin-top: 25px;
     }
 }
-
+ 
 
 
 
