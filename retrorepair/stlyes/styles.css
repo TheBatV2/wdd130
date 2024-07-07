@@ -1,0 +1,68 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.welcome-msg{
+    font-family: "Veranda", Arial, sans-serif;
+    font-size: 2em;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+    margin: 25px 25px 25px 25px;
+    padding: 20px 80px 20px 80px;
+    align-content: baseline;
+    border: 5px solid #e4000f;
+    background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    
+}
+nav a{
+    color: #e4000f;
+}
+nav a:hover{
+    color: #0070D1;
+}
+body{
+    background-color: #e4000f;   
+    background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
+}
+.infobanners{
+    
+    display: grid;
+    grid-template-columns:  repeat(10, 1fr) ;
+    
+}
+.card-img{
+    align-content: right;
+}
+.nintendo-banner{
+    grid-area: 2 / 1 / span 2 / span 3;
+}
+.card-img{
+    max-width: 50%;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+    margin: 25px 25px 25px 25px;
+    padding: 20px 80px 20px 80px;
+    align-content: baseline;
+    border: 5px solid #e4000f;
+    background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
