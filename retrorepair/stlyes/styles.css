@@ -5,7 +5,7 @@
 
 .welcome-msg{
     font-family: "Veranda", Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 header{
@@ -45,11 +45,12 @@ body{
 .card-img{
     align-content: right;
 }
-.nintendo-banner{
-    grid-area: 2 / 1 / span 2 / span 3;
-}
+
 .card-img{
-    max-width: 50%;
+    max-width: 20%;
+    float: left;
+    align-content: center;
+    align-items: center;
 }
 
 
@@ -72,9 +73,9 @@ footer{
 /* Style the tab */
 .tab {
   float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-  width: 30%;
+  border: 1px solid #0070D1;
+  background-color: #e4000f;
+  width: 60%;
   height: 300px;
 }
 
@@ -94,12 +95,14 @@ footer{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #0e7a0d;;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #0070D1;
+  color:#e4000f;
+  text-decoration: underline;
 }
 
 /* Style the tab content */
@@ -107,7 +110,9 @@ footer{
   float: left;
   padding: 0px 12px;
   border: 1px solid #ccc;
-  width: 70%;
+  width: 600%;
   border-left: none;
   height: 300px;
 }
+
+
