@@ -35,6 +35,12 @@ nav a:hover{
 body{
     background-color: #e4000f;   
     background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .infobanners{
     
@@ -115,4 +121,15 @@ footer{
   height: 300px;
 }
 
+* {box-sizing:border-box}
 
+.slider{
+    width: 800px;
+    height:500px;
+    border-radius: 10px;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
